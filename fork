@@ -1,0 +1,9 @@
+# Confirm current folder
+pwd           # or 'Get-Location' in PowerShell
+# List existing remotes
+git remote -v
+origin  https://github.com/ed-donner/agents.git (fetch)
+origin  https://github.com/ed-donner/agents.git (push)
+git remote rename origin upstream
+git remote add origin https://github.com/<your‑username>/agents.git
+git remote -v        # verify
